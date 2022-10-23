@@ -1,0 +1,17 @@
+# AI learns to Play Tetris Game - Part I -
+
+The following are the Gist Links used in the blog post -
+
+|                                             Gist Title                                             | Remarks |
+|:--------------------------------------------------------------------------------------------------:|---------|
+|   [AI_tetris_gui_shapes.py](https://gist.github.com/shashank3199/6dc7c0eba7241c00f7d96ad1beab316d#file-ai_tetris_gui_shapes-py) | <b>Shapes List</b>: Representations of the Tetrominoes Shapes on a 5X5 matrix with their respective possible rotations.  |
+|   [AI_tetris_gui_pieces.py](https://gist.github.com/shashank3199/2a19206903a4c74f92b217bdc8480f25#file-ai_tetris_gui_pieces-py) | <b>Piece Class</b>: Class used to store the Shape, Position, and Orientation of the current piece and next piece. |
+|   [AI_tetris_gui_global_variables.py](https://gist.github.com/shashank3199/69fb419eaaf955bf1f45a5b27b2561a2#file-ai_tetris_gui_global_variables-py)   | <b>Global Variables</b>: Variable declarations used Globally through the Code Base. |
+|   [AI_tetris_gui_tetris_class_f1.py](https://gist.github.com/shashank3199/479c33c07de415486c955f412c87508f#file-ai_tetris_gui_tetris_class_f1-py)    | <b>Tetris Class - Initialization</b>: Class used to represent and store the Game Parameters at a given instance of time. |
+|   [AI_tetris_gui_tetris_class_f2.py](https://gist.github.com/shashank3199/aab46fd55df5e3a11e54ff5679fb09eb#file-ai_tetris_gui_tetris_class_f2-py)    | <b>Tetris Class - Set Grid</b>: Method used to convert the “locked_position” dictionary into a 2-dimensional list of (R, G, B) values. |
+|   [AI_tetris_gui_tetris_class_f3.py](https://gist.github.com/shashank3199/88d24a5015b9272996c830a70c5ff2bb#file-ai_tetris_gui_tetris_class_f3-py)    | <b>Tetris Class - Check Game Over</b>: Method used to signal game over when the y-coordinates of the pieces in the "locked_position" dictionary exceeds the height of the play field. |
+|   [AI_tetris_gui_tetris_class_f4_a.py](https://gist.github.com/shashank3199/6505d1b10a245a4287f0ae554d0c46af#file-ai_tetris_gui_tetris_class_f4_a-py)  | <b>Tetris Class - Clear Rows</b>: Method used to update the score and remove completed rows from the playing field |
+|   [AI_tetris_gui_tetris_class_f4_b.py](https://gist.github.com/shashank3199/23444568c21439c59aab12b24300615d#file-ai_tetris_gui_tetris_class_f4_b-py)  | <b>Tetris Class - Draw Game Window</b>: PyGame method is used to draw the play field at a given instance of time. |
+|   [AI_tetris_gui_tetris_class_f5.py](https://gist.github.com/shashank3199/7d5b23067e7669db11fefb864b291eab#file-ai_tetris_gui_tetris_class_f5-py)    | <b>Tetris Class - Get Grid State</b>: Method used to convert the play field to a binary matrix representing the occupancy of each cell. |
+|   [AI_tetris_gui_tetris_class_f6.py](https://gist.github.com/shashank3199/6c02c68358f0f9fb975bdd261fbe6c74#file-ai_tetris_gui_tetris_class_f6-py)    | <b>Tetris Class - Play Game</b>: Driver method for the game which is used to run a single frame of Tetris. |
+|   [AI_tetris_gui_main.py](https://gist.github.com/shashank3199/94e4296d379be8ba689baf7b74419749#file-ai_tetris_gui_main-py)   | <b>Main</b>: The "Main" Function of the Program used to run the game. |
